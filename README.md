@@ -117,8 +117,8 @@ for "Learn Python". Use redirection to store the resulting feed in a file.
 
     URL="https://www.youtube.com/results?search_query=Learn+Python"
     wget -q -O - "$URL" | mkfeed \
-        --pattern-main '<ol{*}class="item-section">{%}' \
-        --pattern-item '<h3 class="yt-lockup-title"><a href="{%}"{*}>{%}</a>{*}<div class="yt-lockup-description{*}>{%}</div>' \
+        --pattern-main '<ol{*}class={*}item-section{*}>{%}' \
+        --pattern-item '<h3{*}class={*}yt-lockup-title{*}>{*}<a{*}href="{%}"{*}>{%}</a>{*}<div{*}class={*}yt-lockup-description{*}>{%}</div>' \
         --feed-title 'YouTube' \
         --feed-link "$URL" \
         --feed-desc 'Search results for "Learn Python"' \
