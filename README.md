@@ -6,13 +6,12 @@ feeds from HTML, XML, and similar text documents. The feed is created by
 parsing the text with user-specified patterns. mkfeed can be used to
 quickly provide a feed where none is available.
 
-mkfeed is inspired by [Feed43](http://feed43.com/) (pronounced as "Feed For
-Free"), an online, user-friendly service for converting web pages to RSS
-feeds.
+mkfeed was inspired by [Feed43](http://feed43.com/), a user-friendly
+service for converting web pages to RSS feeds.
 
 This file explains how to use mkfeed from the command line on a Linux
-system (but the system specific details should be easily adaptable to other
-systems). 
+system. The system specific details should be easily adaptable to other
+systems. 
 
 
 License
@@ -129,15 +128,6 @@ for "Learn Python". Use redirection to store the resulting feed in a file.
 The development of such a long code snippet is best done in a text editor.
 The code can then either be copied to a terminal, or saved and executed as
 a shell script.
-
-
-Ideas for improvement
-------------------------------
-
- - Use a configuration file
- - Include timestamps
- - Use an intelligent templating engine, like Jinja2
- - Add more methods for extracting data from input
 
 
 Resources
