@@ -24,19 +24,10 @@ details.
 Installation
 ------------------------------
 
-Copy mkfeed.py to a directory in the path and make it executable.
-For example:
+Copy mkfeed.py to a directory in the path and make it executable:
 
     cp mkfeed.py $HOME/bin/mkfeed
     chmod +x $HOME/bin/mkfeed
-
-mkfeed has been tested with Python 2.6 and 2.7, but should work on other
-versions too. 
-
-The argparse library, which is part of Python since versions 2.7 and 3.2, is
-used for parsing command line arguments. For older versions of Python,
-argparse is provided as a separate package. In Debian, argparse is
-available in the python-argparse package.
 
 Test the installation:
 

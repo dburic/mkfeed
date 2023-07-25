@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Python module and command line script for making RSS 2.0 feeds. 
@@ -136,7 +136,7 @@ def main():
     f.set_feed_prop(a.feed_title, a.feed_link, a.feed_desc)
     f.set_item_prop(a.item_title, a.item_link, a.item_desc)
     f.find_items(sys.stdin.read())
-    print f.make_feed()
+    print(f.make_feed())
 
 if __name__ == "__main__":
     main()
